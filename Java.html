@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>java task 2</title>
+
+</head>
+
+<body>
+    <script>
+        function numba(num) {
+            if (num % 2 == 0) {
+                return "yu"
+            } else {
+                return num
+            }
+
+            if (num % 3 == 0) {
+                return "gi"
+            } else {
+                return num
+            }
+
+            if (num % 5 == 0) {
+                return "oh"
+            } else {
+                return num
+            }
+
+            if (num % 2 == 0 && num % 3 == 0) {
+                return yu - gi
+            } else {
+                return num
+            }
+
+            if (num % 2 == 0 && num % 5 == 0) {
+                return "yu-oh"
+            } else {
+                return num
+            }
+
+            if (num % 3 == 0 && num % 5 == 0) {
+                return "gi-oh"
+            } else {
+                return num
+            }
+
+            if (num % 2 == 0 && num % 3 == 0 && num % 5 == 0) {
+                return "yu-gi-oh"
+            } else {
+                return num
+            }
+        }
+        let x = numba([i = 0, i <= 100, i++])
+        console.log(x)
+    </script>
+</body>
+
+</html>
