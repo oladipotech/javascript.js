@@ -1,2 +1,2 @@
 # javascript.js
-Js3.js
+JavaScript
